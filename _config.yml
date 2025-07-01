@@ -1,0 +1,42 @@
+# GitHub Pages configuration
+title: "Rohith Garapati - Portfolio"
+description: "AI/ML Developer & Software Engineer Portfolio"
+author: "Rohith Garapati"
+email: "rohith22gksr@gmail.com"
+baseurl: "" # the subpath of your site, e.g. /portfolio-website
+url: "https://infinityone22.github.io" # the base hostname & protocol for your site
+
+# GitHub Pages uses Jekyll by default
+# This config helps with SEO and metadata
+theme: null # We're using custom HTML/CSS
+
+# Plugins (GitHub Pages has built-in support for these)
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore
+  - assets/resume/README.md
+
+# Include files that start with underscore
+include:
+  - _pages
+
+# Social media and contact info for SEO
+social:
+  github: INFINITYone22
+  linkedin: rohith-garapati-649912160
+  email: rohith22gksr@gmail.com
+
+# SEO settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/social-preview.png
+      twitter:
+        card: summary_large_image 

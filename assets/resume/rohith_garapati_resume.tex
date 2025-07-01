@@ -1,0 +1,139 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- PACKAGES ---
+\usepackage[margin=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{parskip} % Adds nice spacing between paragraphs
+
+% --- FORMATTING ---
+
+\pagestyle{empty}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=black,
+    pdfborder={0 0 0},
+}
+
+% Section formatting: clean, all caps without breaking symbols
+\titleformat{\section}
+  {\bfseries\large\raggedright}
+  {}
+  {0em}
+  {\MakeUppercase}
+\titlespacing*{\section}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+\titleformat{\subsection}
+  {\bfseries\normalsize}
+  {}
+  {0em}
+  {}
+\titlespacing*{\subsection}{0pt}{2ex plus 1ex minus .2ex}{1ex plus .2ex}
+
+% --- COMMANDS ---
+\newcommand{\resumeSubHeading}[4]{
+  \vspace{-2pt}\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \textit{#2} \\
+    \textit{\small#3} & \textit{\small#4} \\
+  \end{tabular*}\vspace{-2pt}
+}
+
+\setlist[itemize]{leftmargin=0.15in, topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt}
+
+% --- DOCUMENT START ---
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge \bfseries ROHITH GARAPATI} \\
+    \vspace{3pt}
+    Hyderabad, India \\
+    \href{mailto:rohith22gksr@gmail.com}{rohith22gksr@gmail.com} $|$ +91 9182194370 \\
+    \href{https://infinityone22.github.io/portfolio-website}{Portfolio} $|$
+    \href{https://linkedin.com/in/rohith-garapati-649912160}{LinkedIn} $|$
+    \href{https://github.com/INFINITYone22}{GitHub}
+\end{center}
+
+% Summary
+\section{Summary}
+A Computer Science Engineering fresher with 2+ years of hands-on experience in prompt engineering and AI-driven development. Skilled in using modern tools and methods to solve problems, develop programs, and build AI solutions. Experienced in rapid prototyping, code generation, and model development through advanced prompt engineering techniques. Competent and dedicated to developing best-in-class software, AI systems, and AI agents. Open to opportunities in AI, software engineering, and product development.
+
+% Education
+\section{Education}
+\resumeSubHeading{GITAM University, Hyderabad}{2021 -- 2025}{B.Tech, Computer Science \& Engineering}{}
+\resumeSubHeading{Abhyasa International Residential School (ICSE)}{2016 -- 2019}{}{}
+
+
+% Skills
+\section{Skills}
+\begin{itemize}
+    \item \textbf{AI/ML:} Deep Learning, NLP, Computer Vision, Transformers, Attention Mechanisms, Generative AI, Large Language Models (LLMs), Model Optimization (FP4, Quantization, QAT, PTQ), AI Agents, Vision Transformers.
+    \item \textbf{Transformer Architecture:} Multi-Head Attention, Self-Attention, Cross-Attention, Positional Encoding, Layer Normalization, Feed-Forward Networks, Residual Connections, Autoregressive Models.
+    \item \textbf{LLM Development:} Model Design, Training Strategies, Fine-tuning, RLHF, Context Window Optimization, Prompt Engineering, Inference Optimization, Model Compression.
+    \item \textbf{Prompt Engineering:} 2+ years experience with advanced prompting techniques, chain-of-thought reasoning, few-shot learning, prompt optimization, and AI model interaction design.
+    \item \textbf{AI-Aided Development:} AI Coding Assistants (Cursor, VS Code), Automation, AI Agent Workflows, APIs (Openrouter, Gemini).
+    \item \textbf{Software Engineering:} Full-Stack Development, API/System Design, UX, Agile, Debugging, Deployment, Iterative Dev.
+    \item \textbf{Frameworks/Tools:} PyTorch, TensorFlow, Hugging Face, FastAPI, Flask, Streamlit, Git, Docker, K8s, AWS, GCP, NVIDIA NIMS.
+    \item \textbf{Core Concepts:} Data Structures \& Algorithms, Product Thinking, Hardware Optimization, UI/UX Principles.
+\end{itemize}
+
+% Experience
+\section{Experience}
+\resumeSubHeading{AI-Aided Software Developer \& Problem Solver}{2022 -- Present}{Project-Based}{}
+\begin{itemize}
+    \item Designed and implemented diverse software solutions and AI models using AI-assisted development tools and advanced prompt engineering.
+    \item Leveraged 2+ years of prompt engineering expertise and agent workflows to deliver efficient end-to-end systems.
+    \item Developed proficiency in optimizing AI model interactions through sophisticated prompting strategies and workflow automation.
+\end{itemize}
+
+\resumeSubHeading{AI/ML \& Product Design Enthusiast}{Self-Directed Learning}{}{}
+\begin{itemize}
+    \item Explored image generation, large models, and prompt design through hands-on experimentation.
+    \item Gained strong product and UX skills via iterative building and real-world testing.
+\end{itemize}
+
+% Projects
+\section{Projects}
+\textit{More at: \href{https://github.com/INFINITYone22}{github.com/INFINITYone22}}
+
+\subsection{AI/ML \& Deep Learning}
+\begin{itemize}
+    \item \textbf{INFINITYone22\_Multimodal:} Designed large-scale multimodal transformer architecture with custom attention mechanisms and hardware-optimized inference.
+    \item \textbf{A-Unified-Transformer:} Autoregressive transformer model architecture for unified text, image, and audio generation with novel cross-modal attention.
+    \item \textbf{ReasoningTransformer:} Custom transformer architecture with enhanced reasoning capabilities and chain-of-thought attention patterns.
+    \item \textbf{TriQuant:} Novel quantization framework for transformer models with ternary-precision (2-bit) optimization and attention mechanism preservation.
+\end{itemize}
+
+\subsection{AI Tools \& Web Apps}
+\begin{itemize}
+    \item \textbf{Image-vector-database:} Web app to store/search images using AI and embeddings.
+    \item \textbf{SemantiCore:} Local document search app that understands meaning, not just keywords.
+    \item \textbf{Resume-analyzer:} AI tool to evaluate resumes with NLP.
+    \item \textbf{ContextFlow:} Research on handling long context in LLMs.
+\end{itemize}
+
+\subsection{System Design \& Infra}
+\begin{itemize}
+    \item \textbf{Hierarchical\_MultiModal\_AI\_CNC:} Modular system to automate CNC manufacturing with AI.
+    \item \textbf{Inferium:} AI inference speed simulator across NVIDIA GPUs.
+    \item \textbf{System-Design-for-Large-Multimodal-Language-Model:} Code \& notes for scalable model systems.
+\end{itemize}
+
+\subsection{Dev Tools \& Programming Languages}
+\begin{itemize}
+    \item \textbf{AION-lang:} A human-readable language for AI/ML workflows.
+    \item \textbf{python-projects:} 60+ Python programs across domains.
+\end{itemize}
+
+\subsection{Web Dev \& Visuals}
+\begin{itemize}
+    \item \textbf{Portfolio Website:} Modern, responsive portfolio website showcasing AI/ML projects with cyberpunk-inspired design, smooth animations, and optimized performance.
+    \item \textbf{AI-Concepts-Visualization-Web-HTML:} Web project to visualize AI concepts.
+    \item \textbf{Web-Development-designs:} Modern UI/UX web design projects.
+\end{itemize}
+
+\end{document}
